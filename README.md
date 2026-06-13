@@ -19,7 +19,7 @@ run_static_check
 final_answer
 ```
 
-At test time, the system can optionally use web search to enrich the final answer, but web search is intentionally kept **outside training** so the environment stays deterministic.
+At test time, the system can optionally use **web search** to enrich the final answer, but web search is intentionally kept **outside training** so the environment stays deterministic.
 
 ## 1. Project Idea
 
