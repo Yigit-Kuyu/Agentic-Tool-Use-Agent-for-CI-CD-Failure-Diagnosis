@@ -82,7 +82,7 @@ So the closest mapping is:
 SFT                -> Behavior Cloning from expert_trajectories.jsonl
 Reward Model       -> Replaced here by engineered reward logic inside env.py
 PPO / RL phase     -> Replaced here by a small DQN-style optimizer in rl.py
-Optional DPO stage -> preference data from dpo_preferences_v2.jsonl
+Optional DPO stage -> Direct Preference Optimization
 ```
 
 So this project is better described as:
